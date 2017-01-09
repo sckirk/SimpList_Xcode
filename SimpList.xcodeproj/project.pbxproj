@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0622E2671E243EDA003FAC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E2661E243EDA003FAC46 /* AppDelegate.swift */; };
+		0622E2691E243EDA003FAC46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E2681E243EDA003FAC46 /* ViewController.swift */; };
+		0622E26C1E243EDA003FAC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0622E26A1E243EDA003FAC46 /* Main.storyboard */; };
+		0622E26E1E243EDA003FAC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0622E26D1E243EDA003FAC46 /* Assets.xcassets */; };
+		0622E2711E243EDA003FAC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */; };
+		0622E27C1E243EDA003FAC46 /* SimpListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E27B1E243EDA003FAC46 /* SimpListTests.swift */; };
+		0622E2871E243EDA003FAC46 /* SimpListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E2861E243EDA003FAC46 /* SimpListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0622E2781E243EDA003FAC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0622E25B1E243EDA003FAC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0622E2621E243EDA003FAC46;
+			remoteInfo = SimpList;
+		};
+		0622E2831E243EDA003FAC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0622E25B1E243EDA003FAC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0622E2621E243EDA003FAC46;
+			remoteInfo = SimpList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0622E2631E243EDA003FAC46 /* SimpList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0622E2661E243EDA003FAC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0622E2681E243EDA003FAC46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0622E26B1E243EDA003FAC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0622E26D1E243EDA003FAC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0622E2701E243EDA003FAC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0622E2721E243EDA003FAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0622E2771E243EDA003FAC46 /* SimpListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0622E27B1E243EDA003FAC46 /* SimpListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpListTests.swift; sourceTree = "<group>"; };
+		0622E27D1E243EDA003FAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0622E2821E243EDA003FAC46 /* SimpListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0622E2861E243EDA003FAC46 /* SimpListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpListUITests.swift; sourceTree = "<group>"; };
+		0622E2881E243EDA003FAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0622E2601E243EDA003FAC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E2741E243EDA003FAC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E27F1E243EDA003FAC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0622E25A1E243EDA003FAC46 = {
+			isa = PBXGroup;
+			children = (
+				0622E2651E243EDA003FAC46 /* SimpList */,
+				0622E27A1E243EDA003FAC46 /* SimpListTests */,
+				0622E2851E243EDA003FAC46 /* SimpListUITests */,
+				0622E2641E243EDA003FAC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0622E2641E243EDA003FAC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0622E2631E243EDA003FAC46 /* SimpList.app */,
+				0622E2771E243EDA003FAC46 /* SimpListTests.xctest */,
+				0622E2821E243EDA003FAC46 /* SimpListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0622E2651E243EDA003FAC46 /* SimpList */ = {
+			isa = PBXGroup;
+			children = (
+				0622E2661E243EDA003FAC46 /* AppDelegate.swift */,
+				0622E2681E243EDA003FAC46 /* ViewController.swift */,
+				0622E26A1E243EDA003FAC46 /* Main.storyboard */,
+				0622E26D1E243EDA003FAC46 /* Assets.xcassets */,
+				0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */,
+				0622E2721E243EDA003FAC46 /* Info.plist */,
+			);
+			path = SimpList;
+			sourceTree = "<group>";
+		};
+		0622E27A1E243EDA003FAC46 /* SimpListTests */ = {
+			isa = PBXGroup;
+			children = (
+				0622E27B1E243EDA003FAC46 /* SimpListTests.swift */,
+				0622E27D1E243EDA003FAC46 /* Info.plist */,
+			);
+			path = SimpListTests;
+			sourceTree = "<group>";
+		};
+		0622E2851E243EDA003FAC46 /* SimpListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0622E2861E243EDA003FAC46 /* SimpListUITests.swift */,
+				0622E2881E243EDA003FAC46 /* Info.plist */,
+			);
+			path = SimpListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0622E2621E243EDA003FAC46 /* SimpList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0622E28B1E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpList" */;
+			buildPhases = (
+				0622E25F1E243EDA003FAC46 /* Sources */,
+				0622E2601E243EDA003FAC46 /* Frameworks */,
+				0622E2611E243EDA003FAC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpList;
+			productName = SimpList;
+			productReference = 0622E2631E243EDA003FAC46 /* SimpList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0622E2761E243EDA003FAC46 /* SimpListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0622E28E1E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListTests" */;
+			buildPhases = (
+				0622E2731E243EDA003FAC46 /* Sources */,
+				0622E2741E243EDA003FAC46 /* Frameworks */,
+				0622E2751E243EDA003FAC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0622E2791E243EDA003FAC46 /* PBXTargetDependency */,
+			);
+			name = SimpListTests;
+			productName = SimpListTests;
+			productReference = 0622E2771E243EDA003FAC46 /* SimpListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0622E2811E243EDA003FAC46 /* SimpListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0622E2911E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListUITests" */;
+			buildPhases = (
+				0622E27E1E243EDA003FAC46 /* Sources */,
+				0622E27F1E243EDA003FAC46 /* Frameworks */,
+				0622E2801E243EDA003FAC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0622E2841E243EDA003FAC46 /* PBXTargetDependency */,
+			);
+			name = SimpListUITests;
+			productName = SimpListUITests;
+			productReference = 0622E2821E243EDA003FAC46 /* SimpListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0622E25B1E243EDA003FAC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					0622E2621E243EDA003FAC46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SJ833JUB3A;
+						ProvisioningStyle = Automatic;
+					};
+					0622E2761E243EDA003FAC46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SJ833JUB3A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0622E2621E243EDA003FAC46;
+					};
+					0622E2811E243EDA003FAC46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SJ833JUB3A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0622E2621E243EDA003FAC46;
+					};
+				};
+			};
+			buildConfigurationList = 0622E25E1E243EDA003FAC46 /* Build configuration list for PBXProject "SimpList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0622E25A1E243EDA003FAC46;
+			productRefGroup = 0622E2641E243EDA003FAC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0622E2621E243EDA003FAC46 /* SimpList */,
+				0622E2761E243EDA003FAC46 /* SimpListTests */,
+				0622E2811E243EDA003FAC46 /* SimpListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0622E2611E243EDA003FAC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0622E2711E243EDA003FAC46 /* LaunchScreen.storyboard in Resources */,
+				0622E26E1E243EDA003FAC46 /* Assets.xcassets in Resources */,
+				0622E26C1E243EDA003FAC46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E2751E243EDA003FAC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E2801E243EDA003FAC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0622E25F1E243EDA003FAC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0622E2691E243EDA003FAC46 /* ViewController.swift in Sources */,
+				0622E2671E243EDA003FAC46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E2731E243EDA003FAC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0622E27C1E243EDA003FAC46 /* SimpListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0622E27E1E243EDA003FAC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0622E2871E243EDA003FAC46 /* SimpListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0622E2791E243EDA003FAC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0622E2621E243EDA003FAC46 /* SimpList */;
+			targetProxy = 0622E2781E243EDA003FAC46 /* PBXContainerItemProxy */;
+		};
+		0622E2841E243EDA003FAC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0622E2621E243EDA003FAC46 /* SimpList */;
+			targetProxy = 0622E2831E243EDA003FAC46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0622E26A1E243EDA003FAC46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0622E26B1E243EDA003FAC46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0622E2701E243EDA003FAC46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0622E2891E243EDA003FAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0622E28A1E243EDA003FAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0622E28C1E243EDA003FAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0622E28D1E243EDA003FAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0622E28F1E243EDA003FAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpList.app/SimpList";
+			};
+			name = Debug;
+		};
+		0622E2901E243EDA003FAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpList.app/SimpList";
+			};
+			name = Release;
+		};
+		0622E2921E243EDA003FAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpList;
+			};
+			name = Debug;
+		};
+		0622E2931E243EDA003FAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SJ833JUB3A;
+				INFOPLIST_FILE = SimpListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0622E25E1E243EDA003FAC46 /* Build configuration list for PBXProject "SimpList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0622E2891E243EDA003FAC46 /* Debug */,
+				0622E28A1E243EDA003FAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0622E28B1E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0622E28C1E243EDA003FAC46 /* Debug */,
+				0622E28D1E243EDA003FAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0622E28E1E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0622E28F1E243EDA003FAC46 /* Debug */,
+				0622E2901E243EDA003FAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0622E2911E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0622E2921E243EDA003FAC46 /* Debug */,
+				0622E2931E243EDA003FAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0622E25B1E243EDA003FAC46 /* Project object */;
+}
