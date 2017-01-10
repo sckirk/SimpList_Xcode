@@ -54,6 +54,10 @@
                             <constraint firstItem="8g9-iP-Etd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="cd0-DF-T8u"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="itemNameLabel" destination="gIi-j7-YaJ" id="N3O-2h-5EO"/>
+                        <outlet property="nameTextField" destination="r49-AE-EZ0" id="uqY-3j-5RY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
