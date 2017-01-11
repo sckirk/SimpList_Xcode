@@ -14,6 +14,12 @@
 		0622E2711E243EDA003FAC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */; };
 		0622E27C1E243EDA003FAC46 /* SimpListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E27B1E243EDA003FAC46 /* SimpListTests.swift */; };
 		0622E2871E243EDA003FAC46 /* SimpListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622E2861E243EDA003FAC46 /* SimpListUITests.swift */; };
+		06C7F1E31E25C300007B77E4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E21E25C300007B77E4 /* Realm.framework */; };
+		06C7F1E41E25C300007B77E4 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E21E25C300007B77E4 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06C7F1E71E25C30D007B77E4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */; };
+		06C7F1E81E25C30D007B77E4 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06C7F1EC1E25C85F007B77E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1EB1E25C85F007B77E4 /* Item.swift */; };
+		06C7F1EE1E25C878007B77E4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1ED1E25C878007B77E4 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		06C7F1E51E25C300007B77E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06C7F1E81E25C30D007B77E4 /* RealmSwift.framework in Embed Frameworks */,
+				06C7F1E41E25C300007B77E4 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0622E2631E243EDA003FAC46 /* SimpList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0622E2661E243EDA003FAC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +68,10 @@
 		0622E2821E243EDA003FAC46 /* SimpListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0622E2861E243EDA003FAC46 /* SimpListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpListUITests.swift; sourceTree = "<group>"; };
 		0622E2881E243EDA003FAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C7F1E21E25C300007B77E4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		06C7F1EB1E25C85F007B77E4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		06C7F1ED1E25C878007B77E4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C7F1E71E25C30D007B77E4 /* RealmSwift.framework in Frameworks */,
+				06C7F1E31E25C300007B77E4 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +104,8 @@
 		0622E25A1E243EDA003FAC46 = {
 			isa = PBXGroup;
 			children = (
+				06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */,
+				06C7F1E21E25C300007B77E4 /* Realm.framework */,
 				0622E2651E243EDA003FAC46 /* SimpList */,
 				0622E27A1E243EDA003FAC46 /* SimpListTests */,
 				0622E2851E243EDA003FAC46 /* SimpListUITests */,
@@ -103,6 +132,7 @@
 				0622E26D1E243EDA003FAC46 /* Assets.xcassets */,
 				0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */,
 				0622E2721E243EDA003FAC46 /* Info.plist */,
+				06C7F1EA1E25C824007B77E4 /* Models */,
 			);
 			path = SimpList;
 			sourceTree = "<group>";
@@ -125,6 +155,16 @@
 			path = SimpListUITests;
 			sourceTree = "<group>";
 		};
+		06C7F1EA1E25C824007B77E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06C7F1EB1E25C85F007B77E4 /* Item.swift */,
+				06C7F1ED1E25C878007B77E4 /* Location.swift */,
+			);
+			name = Models;
+			path = "../../../../Desktop/capstone practice/Models";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +175,8 @@
 				0622E25F1E243EDA003FAC46 /* Sources */,
 				0622E2601E243EDA003FAC46 /* Frameworks */,
 				0622E2611E243EDA003FAC46 /* Resources */,
+				06C7F1E51E25C300007B77E4 /* Embed Frameworks */,
+				06C7F1E91E25C58E007B77E4 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -257,12 +299,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06C7F1E91E25C58E007B77E4 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0622E25F1E243EDA003FAC46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0622E2691E243EDA003FAC46 /* ViewController.swift in Sources */,
+				06C7F1EC1E25C85F007B77E4 /* Item.swift in Sources */,
+				06C7F1EE1E25C878007B77E4 /* Location.swift in Sources */,
 				0622E2671E243EDA003FAC46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +475,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SJ833JUB3A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpList;
@@ -427,6 +492,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SJ833JUB3A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpList;
@@ -441,6 +510,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = SJ833JUB3A;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = SimpListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListTests;
@@ -456,6 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = SJ833JUB3A;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = SimpListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.adadevelopersacademy.SimpListTests;
@@ -512,6 +583,7 @@
 				0622E28D1E243EDA003FAC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0622E28E1E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +592,7 @@
 				0622E2901E243EDA003FAC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0622E2911E243EDA003FAC46 /* Build configuration list for PBXNativeTarget "SimpListUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +601,7 @@
 				0622E2931E243EDA003FAC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
