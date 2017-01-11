@@ -18,8 +18,8 @@
 		06C7F1E41E25C300007B77E4 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E21E25C300007B77E4 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		06C7F1E71E25C30D007B77E4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */; };
 		06C7F1E81E25C30D007B77E4 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		06C7F1EC1E25C85F007B77E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1EB1E25C85F007B77E4 /* Item.swift */; };
-		06C7F1EE1E25C878007B77E4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1ED1E25C878007B77E4 /* Location.swift */; };
+		06C7F1F01E25CDFB007B77E4 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1EF1E25CDFB007B77E4 /* ItemModel.swift */; };
+		06C7F1F21E25CE93007B77E4 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F1F11E25CE93007B77E4 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,8 @@
 		0622E2881E243EDA003FAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C7F1E21E25C300007B77E4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		06C7F1E61E25C30D007B77E4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		06C7F1EB1E25C85F007B77E4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		06C7F1ED1E25C878007B77E4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		06C7F1EF1E25CDFB007B77E4 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		06C7F1F11E25CE93007B77E4 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +130,10 @@
 				0622E2681E243EDA003FAC46 /* ViewController.swift */,
 				0622E26A1E243EDA003FAC46 /* Main.storyboard */,
 				0622E26D1E243EDA003FAC46 /* Assets.xcassets */,
+				06C7F1EF1E25CDFB007B77E4 /* ItemModel.swift */,
+				06C7F1F11E25CE93007B77E4 /* LocationModel.swift */,
 				0622E26F1E243EDA003FAC46 /* LaunchScreen.storyboard */,
 				0622E2721E243EDA003FAC46 /* Info.plist */,
-				06C7F1EA1E25C824007B77E4 /* Models */,
 			);
 			path = SimpList;
 			sourceTree = "<group>";
@@ -153,16 +154,6 @@
 				0622E2881E243EDA003FAC46 /* Info.plist */,
 			);
 			path = SimpListUITests;
-			sourceTree = "<group>";
-		};
-		06C7F1EA1E25C824007B77E4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				06C7F1EB1E25C85F007B77E4 /* Item.swift */,
-				06C7F1ED1E25C878007B77E4 /* Location.swift */,
-			);
-			name = Models;
-			path = "../../../../Desktop/capstone practice/Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,9 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C7F1F01E25CDFB007B77E4 /* ItemModel.swift in Sources */,
 				0622E2691E243EDA003FAC46 /* ViewController.swift in Sources */,
-				06C7F1EC1E25C85F007B77E4 /* Item.swift in Sources */,
-				06C7F1EE1E25C878007B77E4 /* Location.swift in Sources */,
+				06C7F1F21E25CE93007B77E4 /* LocationModel.swift in Sources */,
 				0622E2671E243EDA003FAC46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
